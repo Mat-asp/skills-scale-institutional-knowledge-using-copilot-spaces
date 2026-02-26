@@ -16,8 +16,13 @@ Applies to all cross-functional projects that deliver product features, services
 ## Core Roles
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- Engineering Lead: provides technical guidance, aligns architecture, and escalates technical risks.
 - Developers: implement features, collaborate on design and testability.
+- UX Designer: shapes user experience through design, prototyping, and usability validation.
+- DevOps/SRE: manages CI/CD pipelines, system reliability, and incident response.
+- Business Analyst: documents requirements, bridges stakeholders and delivery, supports UAT.
 - QA/Testing: validate quality and acceptance criteria.
+- Support Lead: channels customer feedback and post-launch issues into the project process.
 - Stakeholders: provide inputs and approvals.
 
 ## Key Artifacts
@@ -36,9 +41,11 @@ Applies to all cross-functional projects that deliver product features, services
 5. Close & Retrospective: capture learnings and next steps.
 
 ## Communication Cadence
-- Weekly sync between PM + PdM
-- Twice-weekly standups for delivery team (or as agreed)
-- Monthly stakeholder updates
+- Daily standups for delivery team (developers, Engineering Lead, QA, DevOps/SRE)
+- Weekly sync between PM + PdM + Engineering Lead
+- Weekly support summary shared by Support Lead to PM/PdM
+- Bi-weekly design review with UX Designer, PdM, and developers
+- Monthly stakeholder updates (facilitated by PM with input from Business Analyst)
 - Ad-hoc escalations as needed
 
 ## How to use these docs
